@@ -158,12 +158,12 @@ const Register = () => {
         <p style={{ textAlign: 'center', color: 'green', marginTop: '0.5rem' }}>{status}</p>
 
         <div style={{ width: '100%', display: 'flex', justifyContent: 'flex-end' }}>
-          <img
+          {/* <img
             src={play_button}
             alt="Login"
             style={{ height: '4rem', width: '4rem', cursor: 'pointer' }}
             onClick={handlePlayClick}
-          />
+          /> */}
         </div>
       </div>
     </div>
